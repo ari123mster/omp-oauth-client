@@ -1,0 +1,13 @@
+{
+	"client_id": "https://cdn.jsdelivr.net/gh/ari123mster/omp-oauth-client@v1/client-metadata.json",
+	"client_name": "oh-my-pi (ari123mster)",
+	"redirect_uris": [
+		"http://127.0.0.1:8976/callback",
+		"http://localhost:8976/callback",
+		"http://127.0.0.1/callback",
+		"http://localhost/callback"
+	],
+	"grant_types": ["authorization_code", "refresh_token"],
+	"response_types": ["code"],
+	"token_endpoint_auth_method": "none"
+}
